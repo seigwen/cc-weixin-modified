@@ -1,6 +1,6 @@
 {
-  "name": "cc-weixin",
-  "version": "0.2.0",
+  "name": "cc-weixin-modified",
+  "version": "0.3.0",
   "type": "module",
   "description": "在微信里使用 Claude Code Agent — 基于腾讯官方 iLink Bot API",
   "keywords": [
@@ -11,11 +11,11 @@
     "ilink",
     "agent"
   ],
-  "author": "hao-ji-xing",
+  "author": "seigwen",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hao-ji-xing/cc-weixin.git"
+    "url": "git+https://github.com/seigwen/cc-weixin-modified.git"
   },
   "bin": {
     "cc-weixin": "./bin/cc-weixin"

@@ -56,7 +56,7 @@ if (noTui) {
           console.log(`   ${text}`);
 
           process.stdout.write("   🤔 Claude 思考中...");
-          const reply = await askClaude(text, from);
+          const reply = await askClaude(text);
           process.stdout.write(" 完成\n");
 
           await sendMessage(baseUrl, token, from, reply, ctx);
