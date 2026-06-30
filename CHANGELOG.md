@@ -6,6 +6,7 @@
 - Claude Code工作区改为跟随当前目录（`process.cwd()`），不再硬编码到 `~/.cc-weixin/workspace/`
 - 添加对/resume和/new的响应, 更方便会话管理：每次运行cc-weixn，默认新开会话，可通过微信发送/resume来恢复旧会话，在旧会话里通过微信发送/new新开会话
 - 开放所有权限给Claude Code，彻底跳过所有权限检查
+- 启用 `excludeDynamicSections` 使系统提示词完全静态，提升 DeepSeek prompt 缓存命中率
 
 ## 0.2.0
 
